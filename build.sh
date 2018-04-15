@@ -2,7 +2,7 @@
 ./autogen.sh &&
 ./configure --prefix=/usr \
             --enable-sdl &&
-make -j $SHED_NUMJOBS &&
-make DESTDIR="$SHED_FAKEROOT" install &&
-install -v -Dm755 "${SHED_FAKEROOT}/usr/games/angband" "${SHED_FAKEROOT}/usr/bin/angband" &&
-rm -rfv "${SHED_FAKEROOT}/usr/games"
+make -j $SHED_NUM_JOBS &&
+make DESTDIR="$SHED_FAKE_ROOT" install &&
+install -v -Dm755 "${SHED_FAKE_ROOT}/usr/games/angband" "${SHED_FAKE_ROOT}/usr/bin/angband" &&
+rm -rfv "${SHED_FAKE_ROOT}/usr/games"

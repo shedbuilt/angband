@@ -1,6 +1,6 @@
 NAME=angband
 VERSION=4.1.2
-REVISION=2
+REVISION=1
 LICENSE=GPL-2.0-or-later
 SRC=http://rephial.org/downloads/4.1/angband-4.1.2.tar.gz
 SRCMD5=d5499e26f59beb745d68a66d67050fc6
